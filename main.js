@@ -36,5 +36,3 @@ p1 = new Promise2((resolve, reject) => {
 p1.then((data) => { console.log('成功') }, (reason) => { console.log('失败') })
     .then(() => { console.log('成功2') }, () => { console.log('失败2') })
     .then(() => { console.log('成功3') }, () => { console.log('失败3') })
-
-
